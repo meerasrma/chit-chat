@@ -63,7 +63,7 @@ chit-chat/
 ```
 
 
-Made with ❤️ by Meera Sharma.
+Made by Meera Sharma.
 
 
 ### Adjustments:

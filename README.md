@@ -29,7 +29,7 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/group-chat-app.git
+   git clone https://github.com/meerasrma/chit-chat.git
    cd group-chat-app
    ```
 2. Install dependencies:

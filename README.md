@@ -31,3 +31,38 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
    ```bash
    git clone https://github.com/your-username/group-chat-app.git
    cd group-chat-app
+   ```
+2. Install dependencies:
+ ```bash
+   npm install
+ ```
+3. Start the application:
+ ```bash
+   npm start
+ ```
+4. Run the app in development mode:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to http://localhost:3000 to access the app.
+```bash
+/group-chat-app
+│
+├── /public               # Frontend files (HTML, CSS, JS)
+├── /src                  # Backend logic (Node.js, Express, Socket.IO)
+├── /views                # Views for chat rooms and messaging
+├── /utils                # Utility functions and services
+├── /node_modules         # Node.js modules
+└── package.json          # Project configuration
+```
+
+
+Made with ❤️ by Meera Sharma.
+
+
+### Adjustments:
+- I've fixed the formatting for the installation and the folder structure.
+- The placeholder `your-username` should be replaced with your actual GitHub username.
+- Feel free to customize the "Future Improvements" section based on your development goals.
+
+Let me know if you need further changes or additions!

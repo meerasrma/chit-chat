@@ -30,7 +30,7 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
 
    ```bash
    git clone https://github.com/meerasrma/chit-chat.git
-   cd group-chat-app
+   cd chit-chat
    ```
 2. Install dependencies:
  ```bash
@@ -46,14 +46,20 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
    ```
 5. Open your browser and navigate to http://localhost:3000 to access the app.
 ```bash
-/group-chat-app
-│
-├── /public               # Frontend files (HTML, CSS, JS)
-├── /src                  # Backend logic (Node.js, Express, Socket.IO)
-├── /views                # Views for chat rooms and messaging
-├── /utils                # Utility functions and services
-├── /node_modules         # Node.js modules
-└── package.json          # Project configuration
+chit-chat/
+├── public/             # Frontend files (HTML, CSS, JS)
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+├── src/                # Backend logic (Node.js, Express, Socket.IO)
+│   ├── server.js
+│   └── ... (other backend files)
+├── utils/              # Utility functions and services (if any)
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── .gitignore
+└── README.md
 ```
 
 

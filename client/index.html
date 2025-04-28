@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+
+<body>
+    <div class="chat-app">
+        <header class="app-header">
+            <h1>Random Chat</h1>
+            <div class="status-container">
+                <div id="status-indicator" class="status-indicator disconnected"></div>
+                <p id="status-text" class="status-text">Click 'New Chat' to start chatting with a stranger</p>
+            </div>
+            <div class="controls">
+                <button id="action-button" class="primary-button">New Chat</button>
+            </div>
+        </header>
+
+        <div id="messages-container" class="messages-container">
+            <div id="empty-state" class="empty-state">
+                Messages will appear here once you're connected
+            </div>
+            <!-- Messages will be added here dynamically -->
+        </div>
+
+        <form id="message-form" class="message-input">
+            <input type="text" id="message-input" placeholder="Connect to start chatting" disabled />
+            <button type="submit" id="send-button" disabled>Send</button>
+        </form>
+    </div>
+
+    <!-- Username Modal -->
+    <div id="username-modal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to Random Chat</h2>
+            <p>Please choose a username to start chatting</p>
+            <form id="username-form">
+                <input type="text" id="username-input" placeholder="Your username" maxlength="20" required />
+                <button type="submit" class="primary-button">Set Username</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

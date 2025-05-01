@@ -64,6 +64,9 @@ chit-chat/
 
 
 Made by Meera Sharma.
+live:
+frontend:[https://chit-chat-tau-ten.vercel.app/]
+backend: [https://chit-chat-1-yqbf.onrender.com]
 
 
 ### Adjustments:

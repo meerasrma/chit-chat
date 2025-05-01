@@ -1,5 +1,7 @@
 // Socket.IO connection
-const SOCKET_URL = "http://localhost:8080";
+const SOCKET_URL = "https://chit-chat-1-yqbf.onrender.com"
+// "http://localhost:8080";
+// https://chit-chat-1-yqbf.onrender.com
 let socket;
 let currentStatus = "disconnected"; // disconnected, waiting, chatting
 let partnerUsername = ""; // Store the partner's username

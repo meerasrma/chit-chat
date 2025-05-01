@@ -10,13 +10,13 @@ const server = http.createServer(app);
 // Configure Socket.IO
 const io = new Server(server, {
   cors: {
-    origin: '*',
+    origin: 'https://chit-chat-tau-ten.vercel.app/',
     methods: ['GET', 'POST']
   }
 });
 
 // Serve static files
-app.use(express.static(path.join(__dirname, 'client')));
+app.use(express.static(path.join(__dirname, '../client')));
 
 // Waiting users queue - now storing objects with socket.id and username
 let waitingUsers = [];

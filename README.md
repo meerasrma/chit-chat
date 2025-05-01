@@ -2,7 +2,7 @@
 
 A real-time group chat application built with Node.js, Express, and Socket.IO. It allows users to communicate in different chat rooms, send private messages, use emojis, and more!
 
-## Features
+## Features (some features are pending)
 
 - **Real-time Chat**: Users can send and receive messages instantly.
 - **Private Messaging**: Users can send messages directly to other users.
@@ -30,11 +30,12 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
 
    ```bash
    git clone https://github.com/meerasrma/chit-chat.git
-   cd chit-chat
+   cd chit-chat\server
    ```
 2. Install dependencies:
  ```bash
    npm install
+   npm install express socket.io
  ```
 3. Start the application:
  ```bash
@@ -44,7 +45,7 @@ A real-time group chat application built with Node.js, Express, and Socket.IO. I
    ```bash
    npm run dev
    ```
-5. Open your browser and navigate to http://localhost:3000 to access the app.
+5. Open your browser and navigate to http://localhost:8080 to access the app.
 ```bash
 chit-chat/
 ├── public/             # Frontend files (HTML, CSS, JS)
@@ -52,12 +53,10 @@ chit-chat/
 │   ├── script.js
 │   └── styles.css
 ├── src/                # Backend logic (Node.js, Express, Socket.IO)
-│   ├── server.js
-│   └── ... (other backend files)
-├── utils/              # Utility functions and services (if any)
-├── node_modules/
-├── package-lock.json
-├── package.json
+│   ├── server.js   # All logics are in this file            
+|   ├── node_modules/
+|   ├── package-lock.json
+|   ├── package.json
 ├── .gitignore
 └── README.md
 ```
@@ -68,10 +67,3 @@ live:
 frontend:[https://chit-chat-tau-ten.vercel.app/]
 backend: [https://chit-chat-1-yqbf.onrender.com]
 
-
-### Adjustments:
-- I've fixed the formatting for the installation and the folder structure.
-- The placeholder `your-username` should be replaced with your actual GitHub username.
-- Feel free to customize the "Future Improvements" section based on your development goals.
-
-Let me know if you need further changes or additions!
